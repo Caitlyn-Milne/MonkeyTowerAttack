@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de6d1aa32c0c7944495648098fd21ff4, type: 3}
+  m_Name: LeadMinion
+  m_EditorClassIdentifier: 
+  <SpecialTraits>k__BackingField: 0
+  <Speed>k__BackingField: 0.75
+  <Sprite>k__BackingField: {fileID: 364445343, guid: 1011c4c3d94e2a3428a69195e27c7926, type: 3}
+  <NextState>k__BackingField: {fileID: 11400000, guid: b978cef03764faa4e8a1241ae8ccdd93, type: 2}

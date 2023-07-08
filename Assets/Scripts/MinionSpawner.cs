@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Pool;
+using UnityEngine.Splines;
 
 public class MinionSpawner : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class MinionSpawner : MonoBehaviour
 
     public Minion Prefab;
     private ObjectPool<Minion> pool;
+
+
 
     public void Spawn(MinionSpawnSetting settings)
     {
@@ -56,7 +59,7 @@ public class MinionSpawner : MonoBehaviour
     private void SpawnSingle(MinionSettings settings)
     {
         var minion = pool.Get();
-        minion.SetSettings(settings);
+        minion.Init(settings);
     }
 
 }
